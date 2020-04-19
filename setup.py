@@ -32,6 +32,7 @@ setup(
     url='https://github.com/beaucronin/basket_case',
     description='Swiss army knife pure Python library to change string casing',
     long_description=open('README.md').read(),
+    long_description_content_type="text/markdown",
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
