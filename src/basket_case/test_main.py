@@ -1,4 +1,3 @@
-import pytest
 from basket_case import (
     title, find_uppercase, precede_uppercase, split_on,
     uppercase_after, camel, kebab, pythonic, constant
