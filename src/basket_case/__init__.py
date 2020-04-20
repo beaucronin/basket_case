@@ -27,7 +27,11 @@ def constant(s: str) -> str:
 
 
 def title(s: str) -> str:
-    return _titlecase(s)
+    ops = [
+        (replace_all, "-_", " "),
+        (_titlecase,)
+    ]
+    return process(s, ops)
 
 def titlecase(s: str) -> str:
     return title(s)
